@@ -8,12 +8,12 @@ public class Vehicle {
     String make;
     String model;
 
-    int accelerate(){
+    int accelerate() {
         currentSpeed = currentSpeed + 5;
         return currentSpeed;
     }
 
-    String honk(){
+    String honk() {
         return "HONNNK";
     }
 
